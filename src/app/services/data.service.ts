@@ -11,6 +11,6 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getData(): Observable<Detail[]> {
-    return <Observable<Detail[]>>this.http.get('https://next.json-generator.com/api/json/get/VyffA6MhV');
+    return <Observable<Detail[]>>this.http.get('https://next.json-generator.com/api/json/get/VyffA6MhV'); 
   }
 }

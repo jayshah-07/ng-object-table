@@ -7,6 +7,6 @@ describe('DataService', () => {
 
   it('should be created', () => {
     const service: DataService = TestBed.get(DataService);
-    expect(service).toBeTruthy();
+    expect(service).toBeTruthy(); 
   });
 });

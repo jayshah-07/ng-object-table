@@ -20,5 +20,5 @@ export class Detail {
     range: number[];
     registered: string;
     tags: string[];
-    _id: string;
+    _id: string; 
 }
